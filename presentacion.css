@@ -1,0 +1,132 @@
+html, body {
+	height: 100%;
+	width: 100%;
+}
+#contenido{
+	font-family: 'Indie Flower', cursive;
+}
+.titulo{
+	font-size: 40px;
+	font-weight: bold;
+	color: white;
+	text-align: center;
+	padding-top: 2%;
+
+	font-family: 'Crimson Text', serif;
+}
+.navbar{
+	background-color: #6c757d;
+}
+.navbar-dark .navbar-brand {
+	color: rgba(249, 249, 249, 0,8);
+	padding-left: 44%;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+	padding-left: 47%;	
+    color: rgba(249, 249, 249, 0,9);
+    font-size: 18px;
+    font-weight: bolder;
+}
+
+#quienSoy{
+	background-image: url("quiensoy.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	width: 100%;
+	height: 700px;
+}
+.container{
+	color: white;
+}
+.align-self-start, .ml-3{
+    height: 120px;
+    width: 120px;
+    border: 1px gray solid;
+}
+.align-self-center{
+	height: 180px;
+    width: 120px;
+    border: 1px gray solid;
+}
+.img-fluid{
+	border: 1px gray solid;
+	margin-top: 3%;
+}
+
+#experiencia{
+	background-image: white;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	width: 100%;
+	height: 500px;
+}
+.btn-primary{
+	margin-top: 15%;
+	background-color: black;
+}
+.btn-primary:hover{
+	background-color: #6c757d;
+}
+.card{
+	float: left;
+	margin: 5% 0.5% 10% 1.5%;
+}
+span{
+	font-style: initial;
+	color:  #6c757d;
+}
+#exp_fondo{
+	background-image: url("job.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	width: 100%;
+	height: 100px;
+}
+#formacion{
+	background-image: url("menu.png");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	width: 100%;
+	height: 700px;
+
+}
+#contacto{
+	background-color: #6c757d;
+	width: 100%;
+	height: 230px;
+}
+.iconos{
+	font-size: 4.5em;
+	padding-top: 0px;
+	padding-left: 10%;
+}
+
+.fa-envelope{
+	color: black;
+}
+.fa-facebook-f{
+	color: black;
+}
+.fa-twitter{
+	color: black;
+}
+.fa-youtube{
+	color: black;
+}
+.fa-envelope:hover{
+	color: white;
+}
+.fa-facebook-f:hover{
+	color: white;
+}
+.fa-twitter:hover{
+	color: white;
+}
+.fa-youtube:hover{
+	color: white;
+}
